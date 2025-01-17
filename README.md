@@ -21,4 +21,6 @@ python main.py  # Select option to load model and predict
 - 🎯 Train on MNIST dataset with live progress display
 - 💾 Save/load trained models
 - 🔍 Predict digits from custom images
-- 🎨 Clean terminal UI with colored output 
+- 🎨 Clean terminal UI with colored output
+
+Tinygrad documentation(initial source): [Training an MNIST Classifier](https://docs.tinygrad.org/mnist/).
