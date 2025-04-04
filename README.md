@@ -2,6 +2,17 @@
 
 Simple MNIST digit classifier using TinyGrad with clean terminal UI. Supports training, model saving/loading, and prediction on custom images.
 
+![TinyGrad MNIST Demo](tiny.gif)
+
+## Installation 💻
+
+To get started, clone this repository:
+
+```bash
+git clone https://gitlab.com/alouiadel/tinygrad-mnist.git
+cd tinygrad-mnist
+```
+
 ## Quick Start 🚀
 ```bash
 # Setup
