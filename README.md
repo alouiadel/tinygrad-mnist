@@ -9,7 +9,7 @@ Simple MNIST digit classifier using TinyGrad with clean terminal UI. Supports tr
 To get started, clone this repository:
 
 ```bash
-git clone https://gitlab.com/alouiadel/tinygrad-mnist.git
+git clone https://github.com/alouiadel/tinygrad-mnist.git
 cd tinygrad-mnist
 ```
 
