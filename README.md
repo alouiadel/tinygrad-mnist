@@ -1,10 +1,10 @@
-# TinyGrad MNIST Classifier 🔢 ✍️
+# TinyGrad MNIST Classifier
 
 Simple MNIST digit classifier using TinyGrad with clean terminal UI. Supports training, model saving/loading, and prediction on custom images.
 
 ![TinyGrad MNIST Demo](tiny.gif)
 
-## Installation 💻
+## Installation
 
 To get started, clone this repository:
 
@@ -13,7 +13,7 @@ git clone https://github.com/alouiadel/tinygrad-mnist.git
 cd tinygrad-mnist
 ```
 
-## Quick Start 🚀
+## Quick Start
 
 ```bash
 # Setup
@@ -29,11 +29,11 @@ python main.py
 python main.py  # Select option to load model and predict
 ```
 
-## Features ✨
+## Features
 
-- 🎯 Train on MNIST dataset with live progress display
-- 💾 Save/load trained models
-- 🔍 Predict digits from custom images
-- 🎨 Clean terminal UI with colored output
+- Train on MNIST dataset with live progress display
+- Save/load trained models
+- Predict digits from custom images
+- Clean terminal UI with colored output
 
 Tinygrad documentation(initial source): [Training an MNIST Classifier](https://docs.tinygrad.org/mnist/).
