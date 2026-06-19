@@ -14,6 +14,7 @@ cd tinygrad-mnist
 ```
 
 ## Quick Start 🚀
+
 ```bash
 # Setup
 python -m venv tiny-venv
@@ -29,6 +30,7 @@ python main.py  # Select option to load model and predict
 ```
 
 ## Features ✨
+
 - 🎯 Train on MNIST dataset with live progress display
 - 💾 Save/load trained models
 - 🔍 Predict digits from custom images
