@@ -7,14 +7,16 @@ Simple MNIST digit classifier using TinyGrad with a clean terminal UI. Supports 
 ## Project Structure
 
 ```
-├── main.py        # Entry point: CLI menu, training loop, prediction flow
-├── model.py       # LeNet-5 CNN architecture (Conv2d → ReLU → Pool → Linear)
-├── training.py    # Training step, evaluation, save/load logic, hyperparameters
-├── predict.py     # Image loading, preprocessing pipeline, prediction loop
-├── data.py        # MNIST dataset loader (via tinygrad's built-in dataset)
-├── display.py     # Terminal UI helpers: progress bar, colored output, cursor
-├── pics/          # Place your digit images (PNG/JPG) here for prediction
-└── saved_models/  # Saved model weights and metadata
+├── main.py         # Entry point: CLI menu, training loop, prediction flow
+├── src/
+│   ├── __init__.py
+│   ├── model.py    # LeNet-5 CNN architecture (Conv2d → ReLU → Pool → Linear)
+│   ├── training.py # Training step, evaluation, save/load logic, hyperparameters
+│   ├── predict.py  # Image loading, preprocessing pipeline, prediction loop
+│   ├── data.py     # MNIST dataset loader (via tinygrad's built-in dataset)
+│   └── display.py  # Terminal UI helpers: progress bar, colored output, cursor
+├── pics/           # Place your digit images (PNG/JPG) here for prediction
+└── saved_models/   # Saved model weights and metadata
 ```
 
 ## Installation

@@ -12,8 +12,8 @@ from tinygrad import nn, TinyJit
 from colorama import Fore, Style
 
 # Local module imports for model architecture and training components
-from model import Model
-from training import (
+from src.model import Model
+from src.training import (
     TrainingStats,
     create_training_step,
     evaluate_model,
@@ -26,7 +26,7 @@ from training import (
 )
 
 # Display utilities for terminal UI management
-from display import (
+from src.display import (
     clear_screen,
     print_header,
     print_progress_bar,
@@ -37,8 +37,8 @@ from display import (
 )
 
 # Data loading and prediction utilities
-from data import load_data
-from predict import predict_local_images
+from src.data import load_data
+from src.predict import predict_local_images
 
 
 # Main training loop with model management, training, and evaluation functionality
